@@ -1,0 +1,16 @@
+{
+  "experiment": "cnn_dropout",
+  "trained": true,
+  "pretrained_weights": "none",
+  "train_images": 12632,
+  "validation_images": 1402,
+  "test_images_reserved": 3000,
+  "epochs_completed": 24,
+  "duration_seconds": 734.8,
+  "trainable_parameters": 110534,
+  "validation_loss": 0.43902,
+  "validation_accuracy": 0.83595,
+  "image_size": 160,
+  "batch_size": 32,
+  "seed": 42
+}

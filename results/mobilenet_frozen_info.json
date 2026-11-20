@@ -1,0 +1,16 @@
+{
+  "experiment": "mobilenet_frozen",
+  "trained": true,
+  "pretrained_weights": "imagenet",
+  "train_images": 12632,
+  "validation_images": 1402,
+  "test_images_reserved": 3000,
+  "epochs_completed": 14,
+  "duration_seconds": 472.37,
+  "trainable_parameters": 7686,
+  "validation_loss": 0.22481,
+  "validation_accuracy": 0.91869,
+  "image_size": 160,
+  "batch_size": 32,
+  "seed": 42
+}

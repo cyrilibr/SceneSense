@@ -1,0 +1,6 @@
+experiment,trained,pretrained_weights,train_images,validation_images,test_images_reserved,epochs_completed,duration_seconds,trainable_parameters,validation_loss,validation_accuracy,image_size,batch_size,seed
+cnn_augmentation,True,none,12632,1402,3000,25,786.71,110534,0.50041,0.81384,160,32,42
+cnn_baseline,True,none,12632,1402,3000,25,784.89,110534,0.37484,0.86448,160,32,42
+cnn_dropout,True,none,12632,1402,3000,24,734.8,110534,0.43902,0.83595,160,32,42
+mobilenet_finetune,True,imagenet,12632,1402,3000,9,315.46,1356166,0.20468,0.92297,160,32,42
+mobilenet_frozen,True,imagenet,12632,1402,3000,14,472.37,7686,0.22481,0.91869,160,32,42

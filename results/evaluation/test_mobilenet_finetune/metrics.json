@@ -1,0 +1,7 @@
+{
+  "experiment": "mobilenet_finetune",
+  "split": "test",
+  "samples": 3000,
+  "accuracy": 0.92633,
+  "macro_f1": 0.92747
+}

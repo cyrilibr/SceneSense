@@ -1,0 +1,16 @@
+{
+  "experiment": "mobilenet_finetune",
+  "trained": true,
+  "pretrained_weights": "imagenet",
+  "train_images": 12632,
+  "validation_images": 1402,
+  "test_images_reserved": 3000,
+  "epochs_completed": 9,
+  "duration_seconds": 315.46,
+  "trainable_parameters": 1356166,
+  "validation_loss": 0.20468,
+  "validation_accuracy": 0.92297,
+  "image_size": 160,
+  "batch_size": 32,
+  "seed": 42
+}

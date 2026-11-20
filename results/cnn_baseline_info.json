@@ -1,0 +1,16 @@
+{
+  "experiment": "cnn_baseline",
+  "trained": true,
+  "pretrained_weights": "none",
+  "train_images": 12632,
+  "validation_images": 1402,
+  "test_images_reserved": 3000,
+  "epochs_completed": 25,
+  "duration_seconds": 784.89,
+  "trainable_parameters": 110534,
+  "validation_loss": 0.37484,
+  "validation_accuracy": 0.86448,
+  "image_size": 160,
+  "batch_size": 32,
+  "seed": 42
+}

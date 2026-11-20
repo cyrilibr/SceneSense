@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scenesense"
+version = "1.0.0"
+description = "Reproducible CNN and transfer-learning comparison on the Intel scene dataset"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "keras>=3.4,<4",
+    "numpy>=1.26,<3",
+    "pandas>=2.0,<3",
+    "pillow>=10,<13",
+    "matplotlib>=3.8,<4",
+    "scikit-learn>=1.4,<2",
+]
+
+[project.optional-dependencies]
+tensorflow = ["tensorflow>=2.16,<2.22"]
+torch = ["torch>=2.2,<3"]
+download = ["kagglehub>=0.3"]
+test = ["pytest>=8", "nbformat>=5"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

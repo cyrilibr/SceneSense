@@ -48,5 +48,6 @@ jobs:
           git add notebooks/*.ipynb docs/SceneSense_rapport.docx docs/SceneSense_rapport.pdf slides/SceneSense_presentation.pptx slides/SceneSense_presentation.pdf
           if ! git diff --cached --quiet; then
             git commit -m "Generate notebooks, report and presentation"
+            git pull --rebase origin main
             git push origin HEAD:main
           fi
